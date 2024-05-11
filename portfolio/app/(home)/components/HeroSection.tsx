@@ -2,8 +2,12 @@ import Link from "next/link";
 import React from "react";
 import { MovingBorderBtn } from "./ui/moving-border";
 import Title from "./Title";
+import Image from "next/image";
+import { px } from "framer-motion";
 
 function HeroSection() {
+  const heroimage = "/profile.jpg";
+
   return (
     <div className="min-h-[60vh] flex flex-col-reverse gap-14 lg:gap-0 lg:flex-row items-center justify-between animate-move-up">
       <div className="space-y-10 text-center lg:text-left">
@@ -25,20 +29,25 @@ function HeroSection() {
           <Title text="Contact Me📬"></Title>
         </Link>
       </div>
-      <div className="w-72 h-72 space-y-3 -rotate-[30deg] lg:absolute lg:right-36">
-        <div className="flex gap-3 translate-x-8">
+      <div className="w-92 h-92 space-y-3  lg:absolute lg:right-36">
+        <div>
+          <Image className="rounded-full border-animation" src={heroimage} alt={"heroimage"} width={390} height={390}></Image>  
+        </div>
+        {/* <div className="flex gap-3 translate-x-8">
           <div className="w-32 h-32 rounded-2xl bg-green-500"></div>
           <div className="w-32 h-32 rounded-full bg-indigo-500"></div>
         </div>
         <div className="flex gap-3 -translate-x-8">
           <div className="w-32 h-32 rounded-2xl bg-indigo-500"></div>
           <div className="w-32 h-32 rounded-full bg-green-500"></div>
-        </div>
-        <div className=" glow absolute top-[40%] right-1/2 -z-10"></div>
+        </div> */}
+        <div className=" glow  absolute top-[40%] right-1/2 -z-10"></div>
       </div>
-      <MovingBorderBtn borderRadius="1.5rem" className="p-2 font-semibold">
-        <p>⭐Available for Work</p>
-      </MovingBorderBtn>
+      
+        <MovingBorderBtn  borderRadius="1.5rem" className=" p-2 font-semibold ">
+          <p>⭐Available for Work</p>
+        </MovingBorderBtn>
+      
     </div>
   );
 }

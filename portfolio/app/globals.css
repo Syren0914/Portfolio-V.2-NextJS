@@ -87,18 +87,36 @@
     
 }
 
-.border-animation{
-  margin: auto 0;
+.border-animation {
+  margin: auto;
   width: 380px;
   height: 380px;
   border: 5px solid rgb(81, 255, 255);
-  border-radius: 55% 45% 55% 45%;
+  border-radius: 50%;
   overflow: hidden;
-  animation: imgFloat 5s ease-in-out infinite;
+  position: relative;
+  animation: drop 6s ease-in-out infinite;
 }
-@keyframes imgFloat{
-  50%{
-    transform: translateY(10px);
-    border-radius: 45% 55% 45% 55%;
+
+@keyframes drop {
+  0% {
+    transform: translateY(-10px) ;
+    border-radius: 70% 40% 60% 40%;
+  }
+  25% {
+    
+    border-radius: 60% 70% 60% 70%;
+  }
+  50% {
+    transform: translateY(10px) ;
+    border-radius: 70% 60% 70% 50%;
+  }
+  75% {
+    
+    border-radius: 50% 60% 50% 70%;
+  }
+  100% {
+    transform: translateY(-10px) ;
+    border-radius: 70% 40% 60% 40%;
   }
 }

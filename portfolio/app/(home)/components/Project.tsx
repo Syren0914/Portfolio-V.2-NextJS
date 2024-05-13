@@ -5,6 +5,8 @@ import Link from "next/link";
 import { cn } from "@/lib/utils";
 import { DirectionAwareHover } from "./ui/direction-aware-hover";
 
+
+
 export default function Project() {
   const project = [
     {
@@ -35,11 +37,12 @@ export default function Project() {
         text="Project"
         className="flex flex-col justify-center items-center rotate-[6deg]"
       />
+      
       <div className="grid grid-cols-1 sm:grid-cols-2 pt-20 gap-5">
         {project.map((project, index) => {
           return (
             <Link href={project.Link} key={index}>
-              <div className={cn("p-5 rounded-md", project.background)}>
+              <div className={cn("p-3 rounded-md", project.background)}>
                 <DirectionAwareHover
                   imageUrl={project.cover}
                   className="w-full space-y-5 cursor-pointer"

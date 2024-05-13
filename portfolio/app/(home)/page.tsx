@@ -6,6 +6,7 @@ import Project from './components/Project'
 import Footer from './components/Footer'
 
 
+
 export default function page() {
   return (
     <div className='min-h-screen bg-black overflow-hidden'>
@@ -22,6 +23,7 @@ export default function page() {
           <Skills></Skills>
           <Project></Project>
           <Footer></Footer>
+          
         </div>
     </div>
   )

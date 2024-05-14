@@ -29,8 +29,7 @@ This is a portfolio website built using Next.js with Aeternity UI and TypeScript
 
    ```bash
    npm install
-
-3.Run the development server:
+3. Run the development server:
   ```bash
     npm run dev
   ```

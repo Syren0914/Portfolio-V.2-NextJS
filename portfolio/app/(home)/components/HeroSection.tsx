@@ -26,7 +26,7 @@ function HeroSection() {
           href="mailto:erdenebatbayar3@gmail.com"
           className="inline-block group p-2"
         >
-          <Title text="Contact Me📬"></Title>
+          <Title  text="Contact Me📬"></Title>
         </Link>
       </div>
       <div className="w-92 h-92 space-y-3  lg:absolute lg:right-36">

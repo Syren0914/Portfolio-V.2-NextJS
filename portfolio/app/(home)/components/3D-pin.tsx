@@ -4,6 +4,7 @@ import { PinContainer } from "./ui/3d-pin";
 import { SiCss3, SiHtml5, SiJavascript, SiPython } from "react-icons/si";
 import Title from "./Title";
 import Link from "next/link";
+import { SparklesPreview } from "./Sparkling";
 
 export function AnimatedPinDemo() {
   const animatedPinDemo = [
@@ -55,8 +56,8 @@ export function AnimatedPinDemo() {
     <>
       <Title
         text="Projects"
-        className="flex flex-col justify-center items-center rotate-[6deg]"
-      ></Title>
+        className=" mt-10 flex flex-col justify-center items-center rotate-[6deg]"
+      />
 
       <div className="gap-y-20 mb-32 mt-32  w-full flex flex-wrap  items-center justify-center ">
         {animatedPinDemo.map((animatedPinDemo, index) => {

@@ -31,7 +31,7 @@ function HeroSection() {
       </div>
       <div className="w-92 h-92 space-y-3  lg:absolute lg:right-36">
         <div>
-          <Image className="rounded-full border-animation" src={heroimage} alt={"heroimage"} width={390} height={390}></Image>  
+          <Image className="rounded-full border-animation object-contain" src={heroimage} alt={"heroimage"} width={390} height={390}></Image>  
         </div>
         {/* <div className="flex gap-3 translate-x-8">
           <div className="w-32 h-32 rounded-2xl bg-green-500"></div>

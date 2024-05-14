@@ -9,6 +9,27 @@ import { DirectionAwareHover } from "./ui/direction-aware-hover";
 
 export default function Project() {
   const project = [
+    {
+      title: "Restaurant website (Lumthai)",
+      tech: [SiHtml5, SiCss3, SiJavascript],
+      Link: "https://Lumthai.com",
+      cover: "/project2.png",
+      background: "bg-white",
+    },
+    {
+      title: "Restaurant website (Thailove & Afterwork)",
+      tech: [SiHtml5, SiCss3, SiJavascript],
+      Link: "https://thailove-afterwork.com",
+      cover: "/project3.png",
+      background: "bg-white",
+    },
+    {
+      title: "Restaurant website (ThaiPapaya)",
+      tech: [SiHtml5, SiCss3, SiJavascript],
+      Link: "https://thaipapayava.com",
+      cover: "/project1.png",
+      background: "bg-white",
+    },
     
     {
       title: "Amazon Web Scraper",
@@ -31,27 +52,7 @@ export default function Project() {
       cover: "/Crypto-price-alert.png",
       background: "bg-white",
     },
-    {
-      title: "Restaurant website (Lumthai)",
-      tech: [SiHtml5, SiCss3, SiJavascript],
-      Link: "https://Lumthai.com",
-      cover: "/project2.png",
-      background: "bg-white",
-    },
-    {
-      title: "Restaurant website (Thailove & Afterwork)",
-      tech: [SiHtml5, SiCss3, SiJavascript],
-      Link: "https://thailove-afterwork.com",
-      cover: "/project3.png",
-      background: "bg-white",
-    },
-    {
-      title: "Restaurant website (ThaiPapaya)",
-      tech: [SiHtml5, SiCss3, SiJavascript],
-      Link: "https://thaipapayava.com",
-      cover: "/project1.png",
-      background: "bg-white",
-    },
+    
   ];
   return (
     <div className="py-10 p-5 sm:p-0">

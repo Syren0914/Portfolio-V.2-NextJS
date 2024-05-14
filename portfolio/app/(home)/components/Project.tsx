@@ -4,6 +4,9 @@ import Title from "./Title";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
 import { DirectionAwareHover } from "./ui/direction-aware-hover";
+import { SparklesPreview } from "./Sparkling";
+
+
 
 
 
@@ -55,13 +58,17 @@ export default function Project() {
     
   ];
   return (
+    
     <div className="py-10 p-5 sm:p-0">
-      <Title
+      
+      
+      <SparklesPreview
         text="Project"
         className="flex flex-col justify-center items-center rotate-[6deg]"
       />
       
       <div className="grid grid-cols-1 sm:grid-cols-2 pt-20 gap-5">
+        
         {project.map((project, index) => {
           return (
             <Link href={project.Link} key={index}>

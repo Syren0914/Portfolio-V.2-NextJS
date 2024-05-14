@@ -9,43 +9,43 @@ export function AnimatedPinDemo() {
   const animatedPinDemo = [
     {
       title: "Amazon Web Scraper",
-      tech: [SiPython],
       Link: "https://github.com/Syren0914/Amazon-Product-Scraper",
       cover: "/web-scraper.png",
+      description:"This Python script is designed to scrape product details from Amazon.com using Playwright and Selectolax libraries.",
       background: "bg-white",
     },
     {
-      title: "Crypto Price Alert",
-      tech: [SiPython],
-      Link: "https://thaipapayava.com",
+      title: "Three.JS Apple webpage",
+      Link: "https://github.com/Syren0914/Three.JS-Apple-webpage",
       cover: "/threejs.png",
+      description:"This project is a responsive website built using Three.js framework for 3D rendering and React for creating interactive user interfaces.",
       background: "bg-white",
     },
     
     {
-      title: "Restaurant website (ThaiPapaya)",
-      tech: [SiPython],
-      Link: "https://thaipapayava.com",
+      title: "Crypto Price Alert",
+      Link: "https://github.com/Syren0914/Crypto-Price-alert",
       cover: "/Crypto-price-alert.png",
+      description:"Automated tool for cryptocurrency enthusiasts to monitor prices and receive notifications.",
       background: "bg-white",
     },
     {
       title: "Restaurant website (Lumthai)",
-      tech: [SiHtml5, SiCss3, SiJavascript],
       Link: "https://Lumthai.com",
+      description:"Discover authentic Thai flavors online with our beautifully crafted website.",
       cover: "/project2.png",
       background: "bg-white",
     },
     {
-      title: "Restaurant website (Thailove & Afterwork)",
-      tech: [SiHtml5, SiCss3, SiJavascript],
+      title: "Restaurant website (Thailove)",
+      description:"Discover authentic Thai flavors online with our beautifully crafted website.",
       Link: "https://thailove-afterwork.com",
       cover: "/project3.png",
       background: "bg-white",
     },
     {
       title: "Restaurant website (ThaiPapaya)",
-      tech: [SiHtml5, SiCss3, SiJavascript],
+      description:"Order authentic Thai cuisine online with seamless GloriaFood API integration.",
       Link: "https://thaipapayava.com",
       cover: "/project1.png",
       background: "bg-white",
@@ -72,7 +72,7 @@ export function AnimatedPinDemo() {
                     </h3>
                     <div className="text-base !m-0 !p-0 font-normal">
                         <span className="text-slate-500">
-                        Customizable Tailwind CSS and Framer Motion Components.
+                        {animatedPinDemo.description}
                         </span>
                     </div>
                     <div className="mt-4 object-contain">

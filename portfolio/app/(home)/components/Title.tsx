@@ -9,6 +9,7 @@ export default function Title({text,className}:{text:string,className?:string}) 
             <div className="w-40 h-2 rounded-full bg-green-500 transition-all group-hover:translate-x-5"></div>
             <div className="w-40 h-2 rounded-full bg-indigo-500 transition-all translate-x-2 group-hover:-translate-x-5"></div>
     </div>
+    
   )
 }
 

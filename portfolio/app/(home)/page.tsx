@@ -5,8 +5,7 @@ import Skills from './components/Skills'
 
 import Footer from './components/Footer'
 import { AnimatedPinDemo } from './components/3D-pin'
-import { SparklesCore } from './components/ui/sparkles'
-import { SparklesPreview } from './components/Sparkling'
+
 
 
 

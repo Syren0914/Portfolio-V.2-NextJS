@@ -1,10 +1,7 @@
-"use client";
 import React from "react";
 import { PinContainer } from "./ui/3d-pin";
-import { SiCss3, SiHtml5, SiJavascript, SiPython } from "react-icons/si";
+
 import Title from "./Title";
-import Link from "next/link";
-import { SparklesPreview } from "./Sparkling";
 
 export function AnimatedPinDemo() {
   const animatedPinDemo = [
@@ -51,44 +48,34 @@ export function AnimatedPinDemo() {
       cover: "/project1.png",
       background: "bg-white",
     },
+    // Add other projects here
   ];
+  
   return (
     <>
       <Title
         text="Projects"
-        className=" mt-10 flex flex-col justify-center items-center rotate-[6deg]"
+        className="mt-10 flex flex-col justify-center items-center rotate-[6deg]"
       />
 
-      <div className="gap-y-20 mb-32 mt-32  w-full flex flex-wrap  items-center justify-center ">
-        {animatedPinDemo.map((animatedPinDemo, index) => {
-          return (
-            <PinContainer
-                title={animatedPinDemo.title}
-                href={animatedPinDemo.Link}
-                >
-                <a target="_blank" href={animatedPinDemo.Link} className="block">
-                    <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[21rem] h-[21rem]">
-                    <h3 className="max-w-xs !pb-2 !m-0 font-bold text-base text-slate-100">
-                        {animatedPinDemo.title}
-                    </h3>
-                    <div className="text-base !m-0 !p-0 font-normal">
-                        <span className="text-slate-500">
-                        {animatedPinDemo.description}
-                        </span>
-                    </div>
-                    <div className="mt-4 object-contain">
-                        <img
-                        src={animatedPinDemo.cover}
-                        className="rounded-lg"
-                        alt=""
-                        />
-                    </div>
-                    </div>
-                </a>
-            </PinContainer>
-
-          );
-        })}
+      <div className="gap-y-20 mb-32 mt-32 w-full flex flex-wrap items-center justify-center">
+        {animatedPinDemo.map((project, index) => (
+          <PinContainer key={index}>
+            <a target="_blank" href={project.Link} className="block">
+              <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[21rem] h-[21rem]">
+                <h3 className="max-w-xs !pb-2 !m-0 font-bold text-base text-slate-100">
+                  {project.title}
+                </h3>
+                <div className="text-base !m-0 !p-0 font-normal">
+                  <span className="text-slate-500">{project.description}</span>
+                </div>
+                <div className="mt-4 object-contain">
+                  <img src={project.cover} className="rounded-lg" alt="" />
+                </div>
+              </div>
+            </a>
+          </PinContainer>
+        ))}
       </div>
     </>
   );

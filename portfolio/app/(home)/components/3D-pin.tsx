@@ -22,7 +22,7 @@ export function AnimatedPinDemo() {
     {
       title: "Crypto Price Alert",
       link: "https://github.com/Syren0914/Crypto-Price-alert",
-      cover: "/crypto-price-alert.png", 
+      cover: "/Crypto-price-alert.png", 
       description: "Automated tool for cryptocurrency enthusiasts to monitor prices and receive notifications.",
       background: "bg-white",
     },

@@ -27,6 +27,13 @@ export function AnimatedPinDemo() {
       background: "bg-white",
     },
     {
+      title: "AI Review Summarizer",
+      description: "Web scraping and AI summarization extract, condense reviews using Pyppeteer, GenerativeAI.",
+      link: "https://github.com/Syren0914/AI-review/tree/main",
+      cover: "/AI_Review.png",
+      background: "bg-white",
+    },
+    {
       title: "Restaurant website (Lumthai)",
       link: "https://Lumthai.com",
       description: "Discover authentic Thai flavors online with our beautifully crafted website.",
@@ -47,6 +54,7 @@ export function AnimatedPinDemo() {
       cover: "/project1.png",
       background: "bg-white",
     },
+    
   ];
   return (
     <>

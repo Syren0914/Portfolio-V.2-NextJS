@@ -54,6 +54,13 @@ export function AnimatedPinDemo() {
       cover: "/project1.png",
       background: "bg-white",
     },
+    {
+      title: "Syren Bank",
+      description: "Syren Bank is an online banking system built with Next.js and Appwrite, offering secure, fast, and user-friendly financial services.",
+      link: "https://github.com/Syren0914/online-banking",
+      cover: "/How to use.png",
+      background: "bg-white",
+    },
     
   ];
   return (

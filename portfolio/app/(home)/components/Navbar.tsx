@@ -21,7 +21,7 @@ export default function Navbar({className}:{className?:string}) {
       Icon: SiInstagram,
     },
     {
-      Link: "https://www.linkedin.com/in/erdene-batbayar-4990a0281/",
+      Link: "https://www.youtube.com/@5FLX",
       Label: "Youtube",
       Icon: SiYoutube,
     },

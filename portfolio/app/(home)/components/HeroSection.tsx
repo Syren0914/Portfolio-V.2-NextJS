@@ -46,6 +46,7 @@ function HeroSection() {
       
         <MovingBorderBtn  borderRadius="1.5rem" className=" p-2 font-semibold ">
           <p>⭐Available for Work</p>
+          <Link href={""}></Link>
         </MovingBorderBtn>
       
     </div>

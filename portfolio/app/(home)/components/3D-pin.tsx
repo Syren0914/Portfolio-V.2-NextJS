@@ -34,12 +34,27 @@ export function AnimatedPinDemo() {
       background: "bg-white",
     },
     {
+      title: "LookChat V.1 ",
+      link: "https://github.com/Syren0914/Lookchat-V.1--Android-Chatting-App",
+      description: "Discover a aesthetic beautifully crafted salon website",
+      cover: "/lookChat.png",
+      background: "bg-white",
+    },
+    {
+      title: "Salon Website (Glow Organic)",
+      link: "https://salon-pied.vercel.app",
+      description: "Discover a aesthetic beautifully crafted salon website",
+      cover: "/glowOrganic.png",
+      background: "bg-white",
+    },
+    {
       title: "Restaurant website (Lumthai)",
       link: "https://Lumthai.com",
       description: "Discover authentic Thai flavors online with our beautifully crafted website.",
       cover: "/project2.png",
       background: "bg-white",
     },
+    
     {
       title: "Restaurant website (Thailove)",
       description: "Discover authentic Thai flavors online with our beautifully crafted website.",

@@ -6,7 +6,7 @@ import { Analytics } from '@vercel/analytics/react';
 const spaceGrotesk = Space_Grotesk({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-	metadataBase: new URL("https://www.erdenebatbayar.com"),
+	metadataBase: new URL("https://www.erdene.dev"),
 
 	title: "Erdene Portfolio",
 	authors: {

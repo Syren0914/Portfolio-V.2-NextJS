@@ -1,10 +1,10 @@
-# Portfolio Website with Next.js and Aeternity UI
+# Portfolio Website with Next.js and Aceternity UI
 
-This is a portfolio website built using Next.js with Aeternity UI and TypeScript. It showcases your projects, skills, and provides information about you in a professional manner.
+This is a portfolio website built using Next.js with Aceternity UI and TypeScript. It showcases your projects, skills, and provides information about you in a professional manner.
 
 ## Features
 
-- **Responsive Design**: Utilizes Aeternity UI's responsive components for a consistent look and feel across devices.
+- **Responsive Design**: Utilizes Aceternity UI's responsive components for a consistent look and feel across devices.
 - **Dynamic Routing**: Implements dynamic routing with Next.js for smooth navigation between pages.
 - **Project Showcase**: Displays your projects with descriptions, images, and links to live demos or GitHub repositories.
 - **Skills Section**: Showcases your skills and expertise in various technologies and tools.
@@ -16,7 +16,7 @@ This is a portfolio website built using Next.js with Aeternity UI and TypeScript
 
 - Next.js
 - React
-- Aeternity UI
+- Aceternity UI
 - TypeScript
 - HTML5
 - CSS3
@@ -51,14 +51,11 @@ Modify or create React components in the components/ directory to customize the 
 Update styles in the styles/ directory to customize the appearance of the website.
 Test the contact form functionality to ensure messages are delivered correctly.
 Deploy the website to a hosting service like Vercel or Netlify for public access.
-Screenshots
-Include screenshots of your website to showcase its design and features.
 
-Examples
-Provide links to a live demo or deployed version of your portfolio website.
+
+
 
 Credits
-Acknowledge any third-party libraries, frameworks, or resources used in the project.
-Credit any tutorials, articles, or documentation that helped in the development.
+Erdene Batbayar
 License
 MIT License

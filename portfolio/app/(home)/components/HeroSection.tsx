@@ -28,6 +28,7 @@ function HeroSection() {
         >
           <Title  text="Contact Me📬"></Title>
         </Link>
+        
       </div>
       <div className="w-92 h-92 space-y-3  lg:absolute lg:right-36">
         <div>
@@ -44,10 +45,12 @@ function HeroSection() {
         <div className=" glow  absolute top-[40%] right-1/2 -z-10"></div>
       </div>
       
-        <MovingBorderBtn  borderRadius="1.5rem" className=" p-2 font-semibold ">
-          <p>⭐Available for Work</p>
-          <Link href={""}></Link>
+      <Link href="/Erdene Resume 2024.pdf" passHref>
+        <MovingBorderBtn borderRadius="1.5rem" className="p-2 font-semibold">
+          <p>⭐ Available for Work</p>
         </MovingBorderBtn>
+      </Link>
+
       
     </div>
   );

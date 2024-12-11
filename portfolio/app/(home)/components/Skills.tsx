@@ -2,7 +2,7 @@
 import React from 'react'
 import Title from './Title'
 import { HoverEffect } from './ui/card-hover-effect'
-import { SiBlender, SiGit, SiJavascript, SiKotlin, SiNextdotjs, SiPython, SiReact, SiSwift, SiTailwindcss } from 'react-icons/si'
+import { SiBlender, SiGit, SiJavascript, SiKotlin, SiNextdotjs, SiPython, SiReact, SiSwift, SiTailwindcss , SiAdobephotoshop,SiAppwrite, SiThreedotjs  } from 'react-icons/si'
 import { text } from 'stream/consumers'
 
 
@@ -26,12 +26,25 @@ export default function Skills() {
 
         },
         {
+            text:"PhotoShop",
+            Icon:SiAdobephotoshop
+
+        },
+        {
+            text: "Appwrite",
+            Icon:SiAppwrite 
+        },
+        {
             text:"Javascript",
             Icon:SiJavascript
         },
         {
             text:"Git",
             Icon:SiGit
+        },
+        {
+            text:"ThreeJS",
+            Icon:SiThreedotjs
         },
         {
             text:"Kotlin",

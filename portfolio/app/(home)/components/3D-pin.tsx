@@ -19,11 +19,15 @@ export function AnimatedPinDemo() {
       description: "This project is a responsive website built using Three.js framework for 3D rendering and React for creating interactive user interfaces.",
       background: "bg-white",
     },
+    
+    
+
+
     {
-      title: "Crypto Price Alert",
-      link: "https://github.com/Syren0914/Crypto-Price-alert",
-      cover: "/Crypto-price-alert.png", 
-      description: "Automated tool for cryptocurrency enthusiasts to monitor prices and receive notifications.",
+      title: "Crypto Price Alert V.2",
+      link: "https://github.com/Syren0914/crypto-alert-v.2",
+      cover: "/crypto-telegram.png", 
+      description: "Automated tool for cryptocurrency enthusiasts to monitor prices and receive notifications using telegram.",
       background: "bg-white",
     },
     {

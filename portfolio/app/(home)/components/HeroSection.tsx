@@ -45,7 +45,7 @@ function HeroSection() {
         <div className=" glow  absolute top-[40%] right-1/2 -z-10"></div>
       </div>
       
-      <Link href="/Erdene Resume 2024.pdf" passHref>
+      <Link href="/Erdene Batbayar Resume 2025.pdf" passHref>
         <MovingBorderBtn borderRadius="1.5rem" className="p-2 font-semibold">
           <p>⭐ Available for Work</p>
         </MovingBorderBtn>

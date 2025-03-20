@@ -5,11 +5,12 @@ import Title from "./Title";
 
 export function AnimatedPinDemo() {
   const animatedPinDemo = [
+    
     {
-      title: "Amazon Web Scraper",
+      title: "Sayed Sediq Portfolio",
       link: "https://github.com/Syren0914/Amazon-Product-Scraper",
-      cover: "/web-scraper.png",
-      description: "This Python script is designed to scrape product details from Amazon.com using Playwright and Selectolax libraries.",
+      cover: "/sediq.png",
+      description: "This project is a responsive portfolio website built using NEXT.js framework for introducing Sayed Sediq's beautifull art pieces using React and Shadcn library with interactive user interfaces.",
       background: "bg-white",
     },
     {
@@ -19,7 +20,34 @@ export function AnimatedPinDemo() {
       description: "This project is a responsive website built using Three.js framework for 3D rendering and React for creating interactive user interfaces.",
       background: "bg-white",
     },
-    
+    {
+      title: "E-commerce website ",
+      link: "https://thesrank.com",
+      cover: "/shopify.png",
+      description: "This project is a e-commerce store that is built using Shopify with Modern design creating interactive beautifull user interfaces.",
+      background: "bg-white",
+    },
+    {
+      title: "MindSpark Agency Webpage",
+      link: "https://github.com/Syren0914/mindspark-agency",
+      cover: "/agency.png",
+      description: "This project is a responsive website built using NEXT.JS framework and Shadcn library to render React component for creating interactive beautifull user interfaces.",
+      background: "bg-white",
+    },
+    {
+      title: "Salon Website (Glow Organic)",
+      link: "https://salon-pied.vercel.app",
+      description: "Discover a aesthetic beautifully crafted salon website",
+      cover: "/glowOrganic.png",
+      background: "bg-white",
+    },
+    {
+      title: "Amazon Web Scraper",
+      link: "https://github.com/Syren0914/Amazon-Product-Scraper",
+      cover: "/web-scraper.png",
+      description: "This Python script is designed to scrape product details from Amazon.com using Playwright and Selectolax libraries.",
+      background: "bg-white",
+    },
     
 
 
@@ -44,13 +72,7 @@ export function AnimatedPinDemo() {
       cover: "/lookChat.png",
       background: "bg-white",
     },
-    {
-      title: "Salon Website (Glow Organic)",
-      link: "https://salon-pied.vercel.app",
-      description: "Discover a aesthetic beautifully crafted salon website",
-      cover: "/glowOrganic.png",
-      background: "bg-white",
-    },
+    
     {
       title: "Restaurant website (Lumthai)",
       link: "https://Lumthai.com",

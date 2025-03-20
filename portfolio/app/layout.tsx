@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
-import { Space_Grotesk } from "next/font/google";
+import { Space_Grotesk, Inter } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Analytics } from '@vercel/analytics/react';
 const spaceGrotesk = Space_Grotesk({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
 	metadataBase: new URL("https://erdene.dev"),
@@ -19,8 +20,8 @@ export const metadata: Metadata = {
 		title: "Erdene Portfolio",
 		description:
 			"Based in Virginia. I'm a Fullstack developer passionate about building a modern web application that user love.",
-		url: "https://localhost:3000",
-		siteName: "Erdene Batbayar - Portfolio 2024",
+		url: "https://erdene.dev",
+		siteName: "Erdene Batbayar - Portfolio 2025",
 		images: "/og.png",
 		type: "website",
 	},

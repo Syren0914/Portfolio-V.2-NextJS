@@ -8,14 +8,14 @@ export function AnimatedPinDemo() {
     
     {
       title: "Sayed Sediq Portfolio",
-      link: "https://github.com/Syren0914/Amazon-Product-Scraper",
+      link: "https://sayedsediq.vercel.app",
       cover: "/sediq.png",
       description: "This project is a responsive portfolio website built using NEXT.js framework for introducing Sayed Sediq's beautifull art pieces using React and Shadcn library with interactive user interfaces.",
       background: "bg-white",
     },
     {
       title: "Three.JS Apple webpage",
-      link: "https://github.com/Syren0914/Three.JS-Apple-webpage",
+      link: "https://iphone14threejs.netlify.app",
       cover: "/threejs.png",
       description: "This project is a responsive website built using Three.js framework for 3D rendering and React for creating interactive user interfaces.",
       background: "bg-white",
@@ -29,14 +29,14 @@ export function AnimatedPinDemo() {
     },
     {
       title: "MindSpark Agency Webpage",
-      link: "https://github.com/Syren0914/mindspark-agency",
+      link: "https://mindsparkagency.com",
       cover: "/agency.png",
       description: "This project is a responsive website built using NEXT.JS framework and Shadcn library to render React component for creating interactive beautifull user interfaces.",
       background: "bg-white",
     },
     {
       title: "Salon Website (Glow Organic)",
-      link: "https://salon-pied.vercel.app",
+      link: "https://gloworganicsk.com",
       description: "Discover a aesthetic beautifully crafted salon website",
       cover: "/glowOrganic.png",
       background: "bg-white",

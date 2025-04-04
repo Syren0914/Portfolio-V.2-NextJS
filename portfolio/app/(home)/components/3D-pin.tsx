@@ -6,6 +6,14 @@ import Title from "./Title";
 export function AnimatedPinDemo() {
   const animatedPinDemo = [
     
+    
+    {
+      title: "Tech Club Website (NVCC)",
+      link: "https://techclubnvcc.vercel.app",
+      cover: "/nvcc.png",
+      description: "This project is a my partipation for to help tech club community of NVCC to build a responsive website using NEXT.js framework and Shadcn library to render React component for creating interactive beautifull user interfaces.",
+      background: "bg-white",
+    },
     {
       title: "Sayed Sediq Portfolio",
       link: "https://sayedsediq.vercel.app",

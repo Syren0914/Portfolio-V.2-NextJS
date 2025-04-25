@@ -36,6 +36,13 @@ export function AnimatedPinDemo() {
       background: "bg-white",
     },
     {
+      title: "Ask her out ",
+      link: "https://askherout.vercel.app",
+      cover: "/askherout.png",
+      description: "For Valentine's Day, I built a custom web app designed as a creative and personalized way to ask someone out. ",
+      background: "bg-white",
+    },
+    {
       title: "MindSpark Agency Webpage",
       link: "https://mindsparkagency.com",
       cover: "/agency.png",

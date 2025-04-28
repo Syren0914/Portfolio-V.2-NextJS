@@ -36,6 +36,7 @@ export default function Navbar({className}:{className?:string}) {
           return (
             <Link
               href={social.Link}
+              target="_blank"
               key={index}
               aria-label={social.Label}
             >

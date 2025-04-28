@@ -27,6 +27,7 @@ export const metadata: Metadata = {
 	},
 	keywords: ["syren0914", "Erdene", "portfolio","Erdene Batbayar","Designer","Front End devoloper", "Fullstack Developer", "portfolio"],
 };
+<link rel="icon" href="/favicon.ico" sizes="any" />
 
 
 export default function RootLayout({

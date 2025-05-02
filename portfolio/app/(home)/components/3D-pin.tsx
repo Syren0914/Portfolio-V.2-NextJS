@@ -99,7 +99,7 @@ export function AnimatedPinDemo() {
     {
       title: "Restaurant website (Thailove)",
       description: "Discover authentic Thai flavors online with our beautifully crafted website.",
-      link: "https://thailove-afterwork.com",
+      link: "https://leafy-pavlova-521625.netlify.app",
       cover: "/project3.png",
       background: "bg-white",
     },

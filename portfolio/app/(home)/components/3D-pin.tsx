@@ -6,8 +6,15 @@ import Title from "./Title";
 export function AnimatedPinDemo() {
   const animatedPinDemo = [
     
-    
     {
+      title: "EqualPayNow",
+      link: "https://equal-pay-now.vercel.app",
+      cover: "/equalpay.png",
+      description: "EqualPayNow, a platform for transparent salary sharing that empowers individuals to anonymously contribute salary data and visualize wage disparities across gender, ethnicity, location, and job roles.",
+      background: "bg-white",
+    },
+    {
+      
       title: "Tech Club Website (NVCC)",
       link: "https://techclubnvcc.vercel.app",
       cover: "/nvcc.png",

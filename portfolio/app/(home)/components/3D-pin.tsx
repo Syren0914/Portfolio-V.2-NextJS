@@ -11,7 +11,7 @@ export function AnimatedPinDemo() {
       link: "https://equal-pay-now.vercel.app",
       cover: "/equalpay.png",
       description: "EqualPayNow, a platform for transparent salary sharing that empowers individuals to anonymously contribute salary data and visualize wage disparities across gender, ethnicity, location, and job roles.",
-      background: "bg-white",
+      background: "bg-white dark:bg-gray-900",
     },
     {
       
@@ -19,56 +19,56 @@ export function AnimatedPinDemo() {
       link: "https://techclubnvcc.vercel.app",
       cover: "/nvcc.png",
       description: "This project is a my partipation for to help tech club community of NVCC to build a responsive website using NEXT.js framework and Shadcn library to render React component for creating interactive beautifull user interfaces.",
-      background: "bg-white",
+      background: "bg-white dark:bg-gray-900",
     },
     {
       title: "Sayed Sediq Portfolio",
       link: "https://sayedsediq.vercel.app",
       cover: "/sediq.png",
       description: "This project is a responsive portfolio website built using NEXT.js framework for introducing Sayed Sediq's beautifull art pieces using React and Shadcn library with interactive user interfaces.",
-      background: "bg-white",
+      background: "bg-white dark:bg-gray-900",
     },
     {
       title: "Three.JS Apple webpage",
       link: "https://iphone14threejs.netlify.app",
       cover: "/threejs.png",
       description: "This project is a responsive website built using Three.js framework for 3D rendering and React for creating interactive user interfaces.",
-      background: "bg-white",
+      background: "bg-white dark:bg-gray-900",
     },
     {
       title: "E-commerce website ",
       link: "https://thesrank.com",
       cover: "/shopify.png",
       description: "This project is a e-commerce store that is built using Shopify with Modern design creating interactive beautifull user interfaces.",
-      background: "bg-white",
+      background: "bg-white dark:bg-gray-900",
     },
     {
       title: "Ask her out ",
       link: "https://askingherout.vercel.app",
       cover: "/askherout.png",
       description: "For Valentine's Day, I built a custom web app designed as a creative and personalized way to ask someone out. ",
-      background: "bg-white",
+      background: "bg-white dark:bg-gray-900",
     },
     {
       title: "MindSpark Agency Webpage",
       link: "https://mindsparkagency.com",
       cover: "/agency.png",
       description: "This project is a responsive website built using NEXT.JS framework and Shadcn library to render React component for creating interactive beautifull user interfaces.",
-      background: "bg-white",
+      background: "bg-white dark:bg-gray-900",
     },
     {
       title: "Salon Website (Glow Organic)",
       link: "https://gloworganicsk.com",
       description: "Discover a aesthetic beautifully crafted salon website",
       cover: "/glowOrganic.png",
-      background: "bg-white",
+      background: "bg-white dark:bg-gray-900",
     },
     {
       title: "Amazon Web Scraper",
       link: "https://github.com/Syren0914/Amazon-Product-Scraper",
       cover: "/web-scraper.png",
       description: "This Python script is designed to scrape product details from Amazon.com using Playwright and Selectolax libraries.",
-      background: "bg-white",
+      background: "bg-white dark:bg-gray-900",
     },
     
 
@@ -78,21 +78,21 @@ export function AnimatedPinDemo() {
       link: "https://github.com/Syren0914/crypto-alert-v.2",
       cover: "/crypto-telegram.png", 
       description: "Automated tool for cryptocurrency enthusiasts to monitor prices and receive notifications using telegram.",
-      background: "bg-white",
+      background: "bg-white dark:bg-gray-900",
     },
     {
       title: "AI Review Summarizer",
       description: "Web scraping and AI summarization extract, condense reviews using Pyppeteer, GenerativeAI.",
       link: "https://github.com/Syren0914/AI-review/tree/main",
       cover: "/AI_Review.png",
-      background: "bg-white",
+      background: "bg-white dark:bg-gray-900",
     },
     {
       title: "LookChat V.1 ",
       link: "https://github.com/Syren0914/Lookchat-V.1--Android-Chatting-App",
       description: "Discover a aesthetic beautifully crafted salon website",
       cover: "/lookChat.png",
-      background: "bg-white",
+      background: "bg-white dark:bg-gray-900",
     },
     
     {
@@ -100,7 +100,7 @@ export function AnimatedPinDemo() {
       link: "https://Lumthai.com",
       description: "Discover authentic Thai flavors online with our beautifully crafted website.",
       cover: "/project2.png",
-      background: "bg-white",
+      background: "bg-white dark:bg-gray-900",
     },
     
     {
@@ -108,21 +108,21 @@ export function AnimatedPinDemo() {
       description: "Discover authentic Thai flavors online with our beautifully crafted website.",
       link: "https://leafy-pavlova-521625.netlify.app",
       cover: "/project3.png",
-      background: "bg-white",
+      background: "bg-white dark:bg-gray-900",
     },
     {
       title: "Restaurant website (ThaiPapaya)",
       description: "Order authentic Thai cuisine online with seamless GloriaFood API integration.",
       link: "https://thaipapayava.com",
       cover: "/project1.png",
-      background: "bg-white",
+      background: "bg-white dark:bg-gray-900",
     },
     {
       title: "Syren Bank",
       description: "Syren Bank is an online banking system built with Next.js and Appwrite, offering secure, fast, and user-friendly financial services.",
       link: "https://github.com/Syren0914/online-banking",
       cover: "/How to use.png",
-      background: "bg-white",
+      background: "bg-white dark:bg-gray-900",
     },
     
   ];

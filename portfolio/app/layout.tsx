@@ -3,6 +3,7 @@ import { Space_Grotesk, Inter } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Analytics } from '@vercel/analytics/react';
+import { cn } from "@/lib/utils";
 const spaceGrotesk = Space_Grotesk({ subsets: ["latin"] });
 const inter = Inter({ subsets: ["latin"] })
 
@@ -36,14 +37,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en" className={cn("scroll-smooth")} suppressHydrationWarning>
+
 		<head>
         <link rel="icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/icon.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/icon.png" />
         <link rel="apple-touch-icon" sizes="180x180" href="/icon.png" />
       </head>
-      <body className={spaceGrotesk.className}>
+      <body className={cn(spaceGrotesk.className, "bg-background text-foreground")}>
         <ThemeProvider
             attribute="class"
             defaultTheme="dark"

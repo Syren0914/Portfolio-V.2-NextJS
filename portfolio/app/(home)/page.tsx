@@ -7,51 +7,52 @@ import Footer from './components/Footer'
 import { AnimatedPinDemo } from './components/3D-pin'
 import SplashCursor from '../Animations/SplashCursor/SplashCursor'
 import Ballpit from '../Backgrounds/Ballpit/Ballpit'
+import Squares from '../Backgrounds/Squares/Squares'
 
 export default function Page() {
   return (
-    <div className='relative min-h-screen bg-black overflow-hidden text-white'>
-      
+    <div className="relative min-h-screen bg-black overflow-hidden text-white">
+      <SplashCursor />
 
-    <SplashCursor />
+      {/* ===== Hero Section with Squares Background ===== */}
+      <div className="relative z-10">
+        {/* Background behind Hero only */}
+        <div className="absolute inset-0 -z-10">
+          <Squares 
+            speed={0.5} 
+            squareSize={40}
+            direction="diagonal"
+            borderColor="rgb(34,34,34)"
+            hoverFillColor="#222"
+          />
+        </div>
 
-      {/* Full-screen PixelTrail Background */}
-      {/* <div className="fixed top-0 left-0 w-full h-full z-20">
-        <PixelTrail
-          gridSize={50}
-          trailSize={0.1}
-          maxAge={250}
-          interpolate={5}
-          color="#00d8ff"
-          gooeyFilter={{ id: "custom-goo-filter", strength: 2 }}
-        />
-      </div> */}
-
-      <div className='dark:bg-black bg-grid-white/[0.05] relative'>
-        <div className='max-w-6xl mx-auto p-5'>
+        <div className="max-w-6xl mx-auto p-5">
           <Navbar />
           <HeroSection />
         </div>
-        <div className='h-10 xl:h-32 bg-gradient-to-t from-black absolute -bottom-5 left-0 xl:bottom-0 w-full'></div>
+
+        <div className="h-10 xl:h-32 bg-gradient-to-t from-black absolute -bottom-5 left-0 xl:bottom-0 w-full" />
       </div>
 
-      <div className='max-w-7xl mx-auto p-5 mt-20 mb-42'>
+      {/* ===== Black Background for Rest of Page ===== */}
+      <div className="max-w-7xl mx-auto p-5 mt-20 mb-42 bg-black relative z-10">
         <Skills />
         <AnimatedPinDemo />
         <Footer />
-        
-
       </div>
-      <div className="relative w-full h-[300px] z-100">
-          {/* <Ballpit
-            count={50}
-            gravity={0.7}
-            friction={0.8}
-            wallBounce={0.95}
-            followCursor={true}
-            ambientColor={16777215}
-          /> */}
-        </div>
+
+      {/* ===== Ballpit Section (optional) ===== */}
+      <div className="relative w-full h-[50px] z-10">
+        {/* <Ballpit
+          count={50}
+          gravity={0.7}
+          friction={0.8}
+          wallBounce={0.95}
+          followCursor={true}
+          ambientColor={16777215}
+        /> */}
+      </div>
     </div>
-  )
+  );
 }

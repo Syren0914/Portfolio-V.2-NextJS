@@ -5,6 +5,13 @@ import Title from "./Title";
 
 export function AnimatedPinDemo() {
   const animatedPinDemo = [
+    {
+      title: "MMCA Connect",
+      link: "https://mmcaofficial.org",
+      cover: "/mmca.png",
+      description: "MMCA connect is a platform for connecting with the community and sharing the news and events of the community.",
+      background: "bg-white dark:bg-gray-900",
+    },
     
     {
       title: "EqualPayNow",

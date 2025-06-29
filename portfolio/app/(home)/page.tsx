@@ -11,8 +11,11 @@ import Squares from '../Backgrounds/Squares/Squares'
 
 export default function Page() {
   return (
-    <div className="relative min-h-screen bg-black overflow-hidden text-white cursor-none">
-      <SplashCursor />
+    <div className="relative min-h-screen bg-black overflow-hidden text-white">
+      {/* SplashCursor Background Layer */}
+      <div className="absolute inset-0 -z-9">
+        <SplashCursor />
+      </div>
 
       {/* ===== Hero Section with Squares Background ===== */}
       <div className="relative z-10">
@@ -54,5 +57,5 @@ export default function Page() {
         /> */}
       </div>
     </div>
-  );
+  )
 }

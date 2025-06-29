@@ -11,7 +11,7 @@ import Squares from '../Backgrounds/Squares/Squares'
 
 export default function Page() {
   return (
-    <div className="relative min-h-screen bg-black overflow-hidden text-white">
+    <div className="relative min-h-screen bg-black overflow-hidden text-white cursor-none">
       <SplashCursor />
 
       {/* ===== Hero Section with Squares Background ===== */}

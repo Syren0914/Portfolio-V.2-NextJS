@@ -5,6 +5,7 @@ import Title from "./Title";
 
 export function AnimatedPinDemo() {
   const animatedPinDemo = [
+    
     {
       title: "MMCA Connect",
       link: "https://mmcaofficial.org",
@@ -56,6 +57,7 @@ export function AnimatedPinDemo() {
       description: "For Valentine's Day, I built a custom web app designed as a creative and personalized way to ask someone out. ",
       background: "bg-white dark:bg-gray-900",
     },
+    
     {
       title: "MindSpark Agency Webpage",
       link: "https://mindsparkagency.com",
@@ -99,6 +101,20 @@ export function AnimatedPinDemo() {
       link: "https://github.com/Syren0914/Lookchat-V.1--Android-Chatting-App",
       description: "Discover a aesthetic beautifully crafted salon website",
       cover: "/lookChat.png",
+      background: "bg-white dark:bg-gray-900",
+    },
+    {
+      title: "Fake Receipt Generator",
+      link: "https://fake-receipt-gen.vercel.app/",
+      cover: "/receipt.png",
+      description: "Create realistic fake receipts instantly for fun, design mockups, or testing. Customize fonts, colors, logos, and more. Free to use, no login required—perfect for demos, pranks, or UI design! Perfect for pranks and fun.",
+      background: "bg-white dark:bg-gray-900",
+    },
+    {
+      title: "Free QR Generator",
+      link: "https://freeqrgenerator.vercel.app/",
+      cover: "/freeqr.png",
+      description: "Free QR Generator lets you instantly create custom QR codes for links, text, Wi-Fi, and more. Fast, secure, and completely free—no login required. Perfect for personal, business, or educational use.",
       background: "bg-white dark:bg-gray-900",
     },
     

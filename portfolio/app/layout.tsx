@@ -56,6 +56,24 @@ export default function RootLayout({
         <link rel="icon" type="image/png" sizes="32x32" href="/icon.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/icon.png" />
         <link rel="apple-touch-icon" sizes="180x180" href="/icon.png" />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Erdene Batbayar",
+            "url": "https://erdene.dev",
+            "sameAs": [
+              "https://github.com/syren0914",
+              "https://linkedin.com/in/erdene-batbayar"
+            ],
+            "jobTitle": "Fullstack Developer",
+            "worksFor": {
+              "@type": "Organization",
+              "name": "Freelance"
+            }
+          })
+        }} />
+
       </head>
       <body className={cn(spaceGrotesk.className, "bg-background text-foreground")}>
         <ThemeProvider

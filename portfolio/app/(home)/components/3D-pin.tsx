@@ -6,6 +6,15 @@ import Title from "./Title";
 export function AnimatedPinDemo() {
   const animatedPinDemo = [
     
+    
+    
+    {
+      title: "Parcel Info (Boundary)",
+      link: "https://boundary-au.vercel.app",
+      cover: "/parcel.png",
+      description: "Parcel Info (Boundary) is an interactive property boundary measurement tool for Queensland AU, designed to make land and property research more accessible, accurate, and user-friendly.",
+      background: "bg-white dark:bg-gray-900",
+    },
     {
       title: "MMCA Connect",
       link: "https://mmcaofficial.org",

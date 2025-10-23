@@ -45,12 +45,12 @@ export function middleware(req: NextRequest) {
 \x1b[38;5;244m└────────────────────────────────────────────────────────────────────┘\x1b[0m
 
 \x1b[38;5;244m┌──────────────────────────────── Commands ───────────────────────────┐\x1b[0m
-	\x1b[38;5;244m│\x1b[0m  \x1b[1;32m$ curl -L erdene.dev\x1b[0m      \x1b[38;5;244m→\x1b[0m  This page                             \x1b[38;5;244m│\x1b[0m
-	\x1b[38;5;244m│\x1b[0m  \x1b[1;32m$ curl -L erdene.dev/json\x1b[0m \x1b[38;5;244m→\x1b[0m  Portfolio data (JSON)                 \x1b[38;5;244m│\x1b[0m
-	\x1b[38;5;244m│\x1b[0m  \x1b[1;32m$ curl -L erdene.dev/projects\x1b[0m \x1b[38;5;244m→\x1b[0m  Project directory                    \x1b[38;5;244m│\x1b[0m
-	\x1b[38;5;244m│\x1b[0m  \x1b[1;32m$ curl -L erdene.dev/resume\x1b[0m   \x1b[38;5;244m→\x1b[0m  Resume link                          \x1b[38;5;244m│\x1b[0m
-	\x1b[38;5;244m│\x1b[0m  \x1b[1;32m$ curl -L erdene.dev/contact\x1b[0m  \x1b[38;5;244m→\x1b[0m  Contact details                      \x1b[38;5;244m│\x1b[0m
-	\x1b[38;5;244m│\x1b[0m  \x1b[1;32m$ curl -L erdene.dev/help\x1b[0m    \x1b[38;5;244m→\x1b[0m  CLI endpoints                         \x1b[38;5;244m│\x1b[0m
+	\x1b[38;5;244m│\x1b[0m  \x1b[1;32m$ curl https://erdene.dev\x1b[0m      \x1b[38;5;244m→\x1b[0m  This page                             \x1b[38;5;244m│\x1b[0m
+	\x1b[38;5;244m│\x1b[0m  \x1b[1;32m$ curl https://erdene.dev/json\x1b[0m \x1b[38;5;244m→\x1b[0m  Portfolio data (JSON)                 \x1b[38;5;244m│\x1b[0m
+	\x1b[38;5;244m│\x1b[0m  \x1b[1;32m$ curl https://erdene.dev/projects\x1b[0m \x1b[38;5;244m→\x1b[0m  Project directory                    \x1b[38;5;244m│\x1b[0m
+	\x1b[38;5;244m│\x1b[0m  \x1b[1;32m$ curl https://erdene.dev/resume\x1b[0m   \x1b[38;5;244m→\x1b[0m  Resume link                          \x1b[38;5;244m│\x1b[0m
+	\x1b[38;5;244m│\x1b[0m  \x1b[1;32m$ curl https://erdene.dev/contact\x1b[0m  \x1b[38;5;244m→\x1b[0m  Contact details                      \x1b[38;5;244m│\x1b[0m
+	\x1b[38;5;244m│\x1b[0m  \x1b[1;32m$ curl https://erdene.dev/help\x1b[0m    \x1b[38;5;244m→\x1b[0m  CLI endpoints                         \x1b[38;5;244m│\x1b[0m
 \x1b[38;5;244m└─────────────────────────────────────────────────────────────────────┘\x1b[0m
 `
 

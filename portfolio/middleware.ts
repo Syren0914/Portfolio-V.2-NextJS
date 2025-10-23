@@ -24,7 +24,7 @@ export function middleware(req: NextRequest) {
 
 \x1b[38;5;244m┌──────────────────────────────────────────────────────────────┐\x1b[0m
 \x1b[38;5;244m│\x1b[0m  \x1b[1;33mErdene Batbayar\x1b[0m  \x1b[2m— Developer & Builder\x1b[0m                      \x1b[38;5;244m│\x1b[0m
-\x1B[38;5;244m│\x1B[0m  \x1B[36m${link('https://erdene.dev','https://erdene.dev')}\x1B[0m                                         \x1b[38;5;244m│\x1b[0m
+\x1B[38;5;244m│\x1B[0m  \x1B[36m${link('https://erdene.dev','https://erdene.dev')}\x1B[0m                                          \x1b[38;5;244m│\x1b[0m
 \x1b[38;5;244m└──────────────────────────────────────────────────────────────┘\x1b[0m
 
 

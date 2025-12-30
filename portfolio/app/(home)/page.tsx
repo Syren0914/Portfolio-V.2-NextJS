@@ -8,6 +8,7 @@ import { AnimatedPinDemo } from './components/3D-pin'
 import SplashCursor from '../Animations/SplashCursor/SplashCursor'
 import Ballpit from '../Backgrounds/Ballpit/Ballpit'
 import Squares from '../Backgrounds/Squares/Squares'
+import { Snowfall } from "react-snowfall";
 
 export default function Page() {
   return (
@@ -15,6 +16,8 @@ export default function Page() {
       {/* SplashCursor Background Layer */}
       <div className="absolute inset-0 -z-9">
         <SplashCursor />
+      <Snowfall  snowflakeCount={200}/>
+
       </div>
 
       {/* ===== Hero Section with Squares Background ===== */}

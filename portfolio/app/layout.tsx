@@ -4,6 +4,7 @@ import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Analytics } from '@vercel/analytics/react';
 import { cn } from "@/lib/utils";
+
 const spaceGrotesk = Space_Grotesk({ subsets: ["latin"] });
 const inter = Inter({ subsets: ["latin"] })
 

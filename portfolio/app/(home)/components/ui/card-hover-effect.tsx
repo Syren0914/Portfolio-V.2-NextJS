@@ -1,6 +1,7 @@
 import { cn } from "@/lib/utils";
 import { AnimatePresence, motion } from "framer-motion";
 import Link from "next/link";
+import Image from "next/image";
 import { useState } from "react";
 import { IconType } from "react-icons/lib";
 
@@ -10,7 +11,8 @@ export const HoverEffect = ({
 }: {
   items: {
     text: string;
-    Icon: IconType;
+    Icon?: IconType;
+    imageUrl?: string;
   }[];
   className?: string;
 }) => {
@@ -53,7 +55,18 @@ export const HoverEffect = ({
           <div className="rounded-xl w-full p-4 overflow-hidden bg-black border  border-white/[0.1] group-hover:ring-2 ring-green-500 relative z-20 transition-all duration-500 cursor-pointer">
 
             <div className="py-10 z-50 relative space-y-5">
-                <Icon className="w-8 h-8 mx-auto"></Icon>
+                {item.imageUrl ? (
+                     <div className="w-full h-32 relative">
+                        <Image 
+                            src={item.imageUrl} 
+                            alt={item.text} 
+                            fill 
+                            className="object-contain" 
+                        />
+                     </div>
+                ) : (
+                    Icon ? <Icon className="w-8 h-8 mx-auto" /> : null
+                )}
                 <p className="text-2xl font-bold text-center text-grey-300">{item.text}</p>
             </div>
           </div>

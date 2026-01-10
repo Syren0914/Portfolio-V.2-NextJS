@@ -3,6 +3,9 @@ import React from 'react'
 import Navbar from './components/Navbar'
 import HeroSection from './components/HeroSection'
 import Skills from './components/Skills'
+import Certifications from './components/Certifications'
+import Github3D from './components/Github3D'
+import SpotifyWidget from './components/SpotifyWidget'
 import Footer from './components/Footer'
 import { AnimatedPinDemo } from './components/3D-pin'
 import SplashCursor from '../Animations/SplashCursor/SplashCursor'
@@ -16,7 +19,7 @@ export default function Page() {
       {/* SplashCursor Background Layer */}
       <div className="absolute inset-0 -z-9">
         <SplashCursor />
-      <Snowfall  snowflakeCount={200}/>
+      {/* <Snowfall  snowflakeCount={500}/> */}
 
       </div>
 
@@ -44,8 +47,11 @@ export default function Page() {
       {/* ===== Black Background for Rest of Page ===== */}
       <div className="max-w-7xl mx-auto p-5 mt-20 mb-42 bg-black relative z-10">
         <Skills />
+        <Certifications />
+        <Github3D />
         <AnimatedPinDemo />
         <Footer />
+        <SpotifyWidget />
       </div>
 
       {/* ===== Ballpit Section (optional) ===== */}

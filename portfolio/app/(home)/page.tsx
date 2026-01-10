@@ -5,6 +5,7 @@ import HeroSection from './components/HeroSection'
 import Skills from './components/Skills'
 import Certifications from './components/Certifications'
 import Github3D from './components/Github3D'
+import VisitorGlobe from './components/VisitorGlobe'
 import SpotifyWidget from './components/SpotifyWidget'
 import Footer from './components/Footer'
 import { AnimatedPinDemo } from './components/3D-pin'
@@ -48,8 +49,11 @@ export default function Page() {
       <div className="max-w-7xl mx-auto p-5 mt-20 mb-42 bg-black relative z-10">
         <Skills />
         <Certifications />
-        <Github3D />
+        <div className="mb-10">
+           <Github3D />
+        </div>
         <AnimatedPinDemo />
+        <VisitorGlobe />
         <Footer />
         <SpotifyWidget />
       </div>

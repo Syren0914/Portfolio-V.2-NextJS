@@ -13,7 +13,7 @@ rl.question('Enter Client ID: ', (clientId) => {
   rl.question('Enter Client Secret: ', (clientSecret) => {
     
     // Updated to use your Cloudflare tunnel
-    const redirectUri = 'https://hobbies-boss-responsibilities-felt.trycloudflare.com';
+    const redirectUri = 'https://erdene.dev';
     const scopes = 'user-read-currently-playing user-read-playback-state';
     
     const authUrl = 'https://accounts.spotify.com/authorize?' + 

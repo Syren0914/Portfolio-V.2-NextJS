@@ -4,13 +4,17 @@ import { NextResponse } from 'next/server';
 export const dynamic = 'force-dynamic';
 
 export async function GET() {
+    console.log("Fetching Now Playing...");
     const response = await getNowPlaying();
+
+    console.log("Spotify API Status:", response.status);
 
     if (response.status === 204 || response.status > 400) {
         return NextResponse.json({ isPlaying: false });
     }
 
     const song = await response.json();
+    console.log("Song Data:", song.item ? song.item.name : "null");
 
     if (song.item === null) {
         return NextResponse.json({ isPlaying: false });

@@ -9,6 +9,7 @@ const NOW_PLAYING_ENDPOINT = `https://api.spotify.com/v1/me/player/currently-pla
 const TOKEN_ENDPOINT = `https://accounts.spotify.com/api/token`;
 
 const getAccessToken = async () => {
+    console.log("Refreshing Spotify Access Token...");
     const response = await fetch(TOKEN_ENDPOINT, {
         method: 'POST',
         headers: {
@@ -21,7 +22,11 @@ const getAccessToken = async () => {
         }),
     });
 
-    return response.json();
+    const data = await response.json();
+    if (data.error) {
+        console.error("Error fetching access token:", data);
+    } 
+    return data;
 };
 
 export const getNowPlaying = async () => {
